@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical"   
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false" >
+
+    <Button
+      
+        android:id="@+id/btnreg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+      
+        android:layout_marginTop="20dp"
+        android:text="Projectshare" />
+
+    <Button
+        android:id="@+id/btnmychat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Class discussion" />
+
+    <Button
+        android:id="@+id/btnams"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="GotoAMS" />
+
+    <Button
+        android:id="@+id/btncrd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Credits" />
+</LinearLayout>
